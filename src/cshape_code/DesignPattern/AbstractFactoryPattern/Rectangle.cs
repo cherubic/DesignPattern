@@ -1,10 +1,11 @@
 ﻿using System;
 namespace DesignPattern.AbstractFactoryPattern
 {
-    public class Rectangle
+    public class Rectangle : Shape
     {
-        public Rectangle()
+        public void Draw()
         {
+            Console.WriteLine("Inside Rectangle::draw() method.");
         }
     }
 }

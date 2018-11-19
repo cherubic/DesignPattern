@@ -1,10 +1,11 @@
 ﻿using System;
 namespace DesignPattern.BuilderPattern
 {
-    public class Wrapper
+    public class Wrapper : Packing
     {
-        public Wrapper()
+        public string Pack()
         {
+            return "Wapper";
         }
     }
 }

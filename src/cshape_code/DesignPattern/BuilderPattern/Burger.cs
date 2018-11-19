@@ -1,10 +1,21 @@
 ﻿using System;
 namespace DesignPattern.BuilderPattern
 {
-    public class Burger
+    public class Burger : Item
     {
-        public Burger()
+        public virtual string Name()
         {
+            throw new NotImplementedException();
+        }
+
+        public Packing Packing()
+        {
+            return new Wrapper();
+        }
+
+        public virtual float Price()
+        {
+            throw new NotImplementedException();
         }
     }
 }

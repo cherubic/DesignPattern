@@ -33,6 +33,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FactoryPatternTest.cs" />
+    <Compile Include="AbstractFactoryPatternTest.cs" />
+    <Compile Include="SingletonPatternTest.cs" />
+    <Compile Include="BuilderPatternTest.cs" />
+    <Compile Include="PrototypePatternTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPattern\DesignPattern.csproj">

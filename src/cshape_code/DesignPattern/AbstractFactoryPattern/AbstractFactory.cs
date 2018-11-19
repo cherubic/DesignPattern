@@ -1,10 +1,9 @@
 ﻿using System;
 namespace DesignPattern.AbstractFactoryPattern
 {
-    public class AbstractFactory
+    public abstract class AbstractFactory
     {
-        public AbstractFactory()
-        {
-        }
+        public abstract Color GetColor(string color);
+        public abstract Shape GetShape(string shape);
     }
 }

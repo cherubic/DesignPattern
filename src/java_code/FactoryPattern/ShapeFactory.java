@@ -1,3 +1,4 @@
+package factorypattern;
 public class ShapeFactory{
     
     public Shape getShape(String shapeType){

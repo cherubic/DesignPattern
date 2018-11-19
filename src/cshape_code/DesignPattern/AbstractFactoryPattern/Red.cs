@@ -1,10 +1,11 @@
 ﻿using System;
 namespace DesignPattern.AbstractFactoryPattern
 {
-    public class Red
+    public class Red : Color
     {
-        public Red()
-        {
+
+        public void Fill(){
+            Console.WriteLine("Inside Red::fill() method.");
         }
     }
 }

@@ -1,10 +1,8 @@
 ﻿using System;
 namespace DesignPattern.AbstractFactoryPattern
 {
-    public class Shape
+    public interface Shape
     {
-        public Shape()
-        {
-        }
+        void Draw();
     }
 }

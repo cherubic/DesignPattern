@@ -1,10 +1,16 @@
 ﻿using System;
 namespace DesignPattern.BuilderPattern
 {
-    public class Coke
+    public class Coke : ColdDrink
     {
-        public Coke()
+        public override string Name()
         {
+            return "Coke";
+        }
+
+        public override float Price()
+        {
+            return 30.0f;
         }
     }
 }

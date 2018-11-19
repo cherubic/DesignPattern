@@ -6,8 +6,13 @@
 
   <ItemGroup>
     <Folder Include="FactoryPattern\" />
+    <Folder Include="AbstractFactoryPattern\" />
+    <Folder Include="SingletonPattern\" />
+    <Folder Include="BuilderPattern\" />
+    <Folder Include="PrototypePattern\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="FactoryPattern\FactoryDemo.cs" />
+    <Compile Remove="SingletonPattern\SingletonObjectF.cs" />
   </ItemGroup>
 </Project>

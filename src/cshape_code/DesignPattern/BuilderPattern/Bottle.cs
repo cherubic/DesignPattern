@@ -1,10 +1,10 @@
 ﻿using System;
 namespace DesignPattern.BuilderPattern
 {
-    public class Bottle
+    public class Bottle : Packing
     {
-        public Bottle()
-        {
+        public string Pack(){
+            return "Bottle";
         }
     }
 }

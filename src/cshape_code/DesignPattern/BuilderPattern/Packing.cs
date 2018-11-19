@@ -1,10 +1,8 @@
 ﻿using System;
 namespace DesignPattern.BuilderPattern
 {
-    public class Packing
+    public interface Packing
     {
-        public Packing()
-        {
-        }
+        string Pack();
     }
 }

@@ -1,10 +1,10 @@
 ﻿using System;
 namespace DesignPattern.BuilderPattern
 {
-    public class Item
+    public interface Item
     {
-        public Item()
-        {
-        }
+        string Name();
+        Packing Packing();
+        float Price();
     }
 }
