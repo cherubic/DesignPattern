@@ -1,7 +1,8 @@
 # DesignPattern
 design pattern explain and demo code. 
 
-# Factory Pattern
+## 创建型设计模式
+### Factory Pattern
 创建型设计模式，用于创建具有相同方法的类。
 
 我将它使用于：
@@ -15,7 +16,7 @@ design pattern explain and demo code.
 我认为它的缺点在于：
 1、当你想为你的其中一个类增加方法并且在由工厂创建的类中能使用，那么你需要在每个子类中增加一个方法名相同的无用的类。
 
-# Abstract Factory Pattern
+### Abstract Factory Pattern
 创建型设计模式，用于创建几个子类别，并且子类别又有相互关联关系的类。
 
 我将它使用于：
@@ -28,7 +29,7 @@ design pattern explain and demo code.
 我认为它的缺点在于：
 1、当你想要增加新的工厂时，则需要在抽象工厂中添加代码，也需要自己工厂的具体实现提供。
 
-# Singleton Pattern
+### Singleton Pattern
 创建型设计模式，用于创建一个类型，这个类型只能存在一个实例。
 
 我将它使用于：
@@ -45,7 +46,7 @@ design pattern explain and demo code.
 注意事项：
 有多种实现单例模式的方法，应该注意在何种情况下使用何种实现方式。
 
-# Builder Pattern
+### Builder Pattern
 创建型设计模式，用于创建多种有逻辑关系的类别功能需要组合使用的情况中。
 
 我将它使用于：
@@ -57,7 +58,7 @@ design pattern explain and demo code.
 我认为它的缺点在于：
 1、由于是由各个功能组合在一起，则内部逻辑相对复杂。
 
-# Prototype Pattern
+### Prototype Pattern
 创建型模式，当需要对象时，是将原对象复制得到。
 
 我将它使用于：
