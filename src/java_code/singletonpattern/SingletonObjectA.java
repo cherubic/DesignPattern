@@ -5,7 +5,7 @@ public class SingletonObjectA{
 
     private SingletonObjectA(){}
 
-    public SingletonObjectA getSingletonObjectInstance(){
+    public static SingletonObjectA getSingletonObjectA(){
         return singletonObjectA;
     }
 }

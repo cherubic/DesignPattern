@@ -14,5 +14,6 @@
   <ItemGroup>
     <Compile Remove="FactoryPattern\FactoryDemo.cs" />
     <Compile Remove="SingletonPattern\SingletonObjectF.cs" />
+    <Compile Remove="BuilderPattern\EmptyClass.cs" />
   </ItemGroup>
 </Project>
