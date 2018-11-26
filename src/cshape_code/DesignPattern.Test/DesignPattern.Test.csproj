@@ -37,6 +37,13 @@
     <Compile Include="SingletonPatternTest.cs" />
     <Compile Include="BuilderPatternTest.cs" />
     <Compile Include="PrototypePatternTest.cs" />
+    <Compile Include="AdapterPatternTest.cs" />
+    <Compile Include="BridgePatternTest.cs" />
+    <Compile Include="CompositePatternTest.cs" />
+    <Compile Include="DecoratorPatternTest.cs" />
+    <Compile Include="FacadePatternTest.cs" />
+    <Compile Include="FlyweightPatternTest.cs" />
+    <Compile Include="ProxyPatternTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPattern\DesignPattern.csproj">

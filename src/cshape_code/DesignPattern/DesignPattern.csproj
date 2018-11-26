@@ -10,6 +10,14 @@
     <Folder Include="SingletonPattern\" />
     <Folder Include="BuilderPattern\" />
     <Folder Include="PrototypePattern\" />
+    <Folder Include="AdapterPattern\" />
+    <Folder Include="Bridge\" />
+    <Folder Include="FilterPattern\" />
+    <Folder Include="CompositePattern\" />
+    <Folder Include="DecoratorPattern\" />
+    <Folder Include="FacadePattern\" />
+    <Folder Include="FlyweightPattern\" />
+    <Folder Include="ProxyPattern\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="FactoryPattern\FactoryDemo.cs" />
