@@ -18,6 +18,18 @@
     <Folder Include="FacadePattern\" />
     <Folder Include="FlyweightPattern\" />
     <Folder Include="ProxyPattern\" />
+    <Folder Include="ChainOfResponsibilityPattern\" />
+    <Folder Include="CommandPattern\" />
+    <Folder Include="InterpreterPattern\" />
+    <Folder Include="IteratorPattern\" />
+    <Folder Include="MediatorPattern\" />
+    <Folder Include="MementoPattern\" />
+    <Folder Include="ObserverPattern\" />
+    <Folder Include="StatePattern\" />
+    <Folder Include="NullObjectPattern\" />
+    <Folder Include="StrategyPattern\" />
+    <Folder Include="TemplatePattern\" />
+    <Folder Include="VisitorPattern\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="FactoryPattern\FactoryDemo.cs" />

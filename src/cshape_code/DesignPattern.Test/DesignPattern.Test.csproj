@@ -44,6 +44,18 @@
     <Compile Include="FacadePatternTest.cs" />
     <Compile Include="FlyweightPatternTest.cs" />
     <Compile Include="ProxyPatternTest.cs" />
+    <Compile Include="ChainPatternTest.cs" />
+    <Compile Include="CommandPatternTest.cs" />
+    <Compile Include="InterpreterPatternTest.cs" />
+    <Compile Include="IteratorPatternTest.cs" />
+    <Compile Include="MediatorPatternTest.cs" />
+    <Compile Include="MementoPatternTest.cs" />
+    <Compile Include="ObserverPatternTest.cs" />
+    <Compile Include="StatePatternTest.cs" />
+    <Compile Include="NullPatternTest.cs" />
+    <Compile Include="StrategyPatternTest.cs" />
+    <Compile Include="TemplatePatternTest.cs" />
+    <Compile Include="VisitorPatternTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPattern\DesignPattern.csproj">
